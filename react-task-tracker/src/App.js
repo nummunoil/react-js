@@ -1,13 +1,17 @@
-function App() {
-  const name = 'Oil'
-  const x = false
+import React from 'react';
+// import Header from './components/Header'
 
-  return <div className="container">
-    <h1>Hello From React</h1>
-    <h2>Hello {name}</h2>
-    <h2>Hello {x ? 'Yes' : 'No'}</h2>
+// const App = () => {
+//   return (
+//   <div className="container">
+//     <Header />
+//   </div>
+//   )
+// }
 
-  </div>;
+class App extends React.Component {
+  render() {
+    return <h1>Hello from a class</h1>
+  }
 }
-
 export default App;
