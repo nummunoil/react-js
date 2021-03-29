@@ -1,20 +1,20 @@
-import PropTypes from 'prop-types'
+import PropTypes from 'prop-types';
 
-const Header = ({title}) => {
+const Header = ({ title }) => {
   return (
-    <header className='header'>
+    <header className="header">
       <h1>{title}</h1>
-      <button className='btn'>Add</button>
+      <button className="btn">Add</button>
     </header>
   );
 };
 
 Header.defaultProps = {
-  title: 'Task Tracker',
-}
+  title: 'Task Tracker'
+};
 
 Header.propTypes = {
   title: PropTypes.string.isRequired
-}
+};
 
 export default Header;
