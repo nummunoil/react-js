@@ -22,6 +22,14 @@ const Tasks = () => {
     },
   ]);
 
+  // tasks.push({
+  //   id: 3,
+  //   text: 'test Shopping',
+  //   day: 'Feb 5th at 2:30pm',
+  //   reminder: false,
+  // });
+
+  // setTasks([...tasks, {}]);
   return (
     <>
       {tasks.map((task) => (
