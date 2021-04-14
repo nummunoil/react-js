@@ -15,7 +15,7 @@
     {
       "text": "take test",
       "day": "Friday",
-      "reminder": false,
+      "reminder": true,
       "id": 3
     }
   ]
